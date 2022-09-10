@@ -1,4 +1,4 @@
-class hello {
+public class Question1 {
     public static void main(String[] args) {
         int a = 20;
         int b = 30;
@@ -8,7 +8,7 @@ class hello {
                 b = Integer.parseInt(args[1]);
             }
             catch (NumberFormatException ex){
-                System.out.println("the supplied arguments raised an error");
+                System.out.println("the supplied arguments raised an error \nusing inbuilt numbers");
             }
         }
         System.out.println("The sum of two numbers is " + (a + b));
